@@ -16,46 +16,886 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oah-Ct-iYN">
-                                <rect key="frame" x="105" y="45" width="218" height="459"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Nk-Yy-ETJ">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fef-Ve-lXQ">
+                                        <rect key="frame" x="122" y="2" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 2"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PIb-Dk-o0N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mb-rb-ZcR">
+                                        <rect key="frame" x="220" y="2" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 3"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XmD-en-D6h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLW-EW-4YM">
+                                        <rect key="frame" x="318" y="2" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 4"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NDb-km-Nan"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8P-0b-ZGi">
+                                        <rect key="frame" x="24" y="97" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 5"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTq-k4-2zo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ga-cy-7Fg">
+                                        <rect key="frame" x="122" y="93" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 6"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A9n-nQ-tDp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsH-YJ-38Y">
+                                        <rect key="frame" x="220" y="97" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 7"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Nv-lJ-THk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n83-63-gbR">
+                                        <rect key="frame" x="318" y="97" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 8"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J6o-5V-4Fb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBt-P7-9BP">
+                                        <rect key="frame" x="24" y="192" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 9"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYC-OS-BVw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJz-eT-1zw">
+                                        <rect key="frame" x="122" y="192" width="85" height="84.333333333333329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Shoes 1"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="puA-wg-htd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0BG-PA-ycS">
+                                        <rect key="frame" x="41" y="40" width="50" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="Btn-刪除"/>
+                                        <connections>
+                                            <action selector="changeShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sD8-3d-lR4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EdB-dZ-DSd">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sN7-2U-CyZ">
+                                        <rect key="frame" x="24" y="10" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-1"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MG2-ve-mIE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLN-cC-ddD">
+                                        <rect key="frame" x="127" y="10" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-2"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YjH-cb-2nO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjZ-xO-YbN">
+                                        <rect key="frame" x="230" y="10" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-3"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HE0-NY-qf4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDm-Uh-Cyr">
+                                        <rect key="frame" x="333" y="10" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-4"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sb2-KN-YJX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Uq-sN-O4b">
+                                        <rect key="frame" x="24" y="105" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-5"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V5r-d3-3Gn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVm-1T-3ED">
+                                        <rect key="frame" x="127" y="105" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-6"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Hc-5E-VPp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhD-jF-cl3">
+                                        <rect key="frame" x="230" y="105" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-7"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j6C-Mc-Zjq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh9-qU-Cla">
+                                        <rect key="frame" x="333" y="105" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backgroung-8"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SvG-OH-AUu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqm-Ej-vrA">
+                                        <rect key="frame" x="24" y="200" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="background-9"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tDf-JX-ylf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9C-r2-jpt">
+                                        <rect key="frame" x="127" y="200" width="70" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="background-10"/>
+                                        <connections>
+                                            <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bre-FB-lRS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pz3-Om-ILk">
+                                <rect key="frame" x="0.0" y="602" width="428" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ig-NX-ywU">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzu-AJ-I6z">
+                                        <rect key="frame" x="24" y="15" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 1"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1s-RE-0qb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6R-Aq-wGT">
+                                        <rect key="frame" x="105" y="15" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 2"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fv4-vm-eCA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTX-q4-hK9">
+                                        <rect key="frame" x="186" y="15" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 3"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WDy-Fh-gid"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSa-lQ-yJH">
+                                        <rect key="frame" x="267" y="15" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 4"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LqV-Hl-Mmg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swq-pN-v35">
+                                        <rect key="frame" x="348" y="15" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 5"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfU-Ng-QYD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOB-yS-N6k">
+                                        <rect key="frame" x="24" y="149" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 6"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XS8-PO-Wma"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydi-QZ-83w">
+                                        <rect key="frame" x="104" y="149" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 7"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpl-bx-LCG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwT-Wg-Yev">
+                                        <rect key="frame" x="185" y="149" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 8"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4J-aI-aEx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8Z-Bw-YTc">
+                                        <rect key="frame" x="266" y="149" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 9"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EK2-8u-lWd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nax-Qr-7xk">
+                                        <rect key="frame" x="348" y="149" width="57" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Dress 10"/>
+                                        <connections>
+                                            <action selector="changeDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wmw-n2-gYz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oah-Ct-iYN">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="520"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-10" translatesAutoresizingMaskIntoConstraints="NO" id="Ivf-MP-lk1">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="520"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="RUI-uz-YNl">
-                                        <rect key="frame" x="0.0" y="0.0" width="217.33333333333331" height="458.33333333333331"/>
+                                        <rect key="frame" x="105" y="45" width="217.33333333333331" height="458.33333333333331"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eyes  1" translatesAutoresizingMaskIntoConstraints="NO" id="2Ar-df-qF1">
-                                        <rect key="frame" x="69.333333333333329" y="64.333333333333329" width="51.666666666666664" height="16.666666666666664"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eyes 1" translatesAutoresizingMaskIntoConstraints="NO" id="2Ar-df-qF1">
+                                        <rect key="frame" x="175" y="109" width="51.666666666666664" height="16.666666666666664"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hair 2D" translatesAutoresizingMaskIntoConstraints="NO" id="qFg-BZ-Cdw">
-                                        <rect key="frame" x="43" y="0.0" width="143" height="261.66666666666663"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hair 4A" translatesAutoresizingMaskIntoConstraints="NO" id="qFg-BZ-Cdw">
+                                        <rect key="frame" x="148" y="45" width="143" height="261.66666666666663"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shoes  1" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-WT-9Ge">
-                                        <rect key="frame" x="69" y="362" width="97" height="96"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shoes 1" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-WT-9Ge">
+                                        <rect key="frame" x="174" y="407" width="97" height="96"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dress 1" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-Qt-QJE">
+                                        <rect key="frame" x="143" y="160" width="141.33333333333331" height="299"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Glasses 1" translatesAutoresizingMaskIntoConstraints="NO" id="Tfx-dF-bjB">
+                                        <rect key="frame" x="168" y="104" width="82" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu3-dq-pT1">
+                                        <rect key="frame" x="15" y="455" width="125" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-隨機"/>
+                                        <connections>
+                                            <action selector="selectRandom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3p4-OM-n68"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OkM-w9-TFH">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B43-4M-Kt5">
+                                        <rect key="frame" x="24" y="30" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 1"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B5C-z6-xcO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFr-Qa-rsV">
+                                        <rect key="frame" x="129" y="30" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 2"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3W-qf-TjL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hus-rM-IO0">
+                                        <rect key="frame" x="234" y="30" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 3"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u59-N4-lnu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4w-1E-6LG">
+                                        <rect key="frame" x="339" y="30" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 4"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64v-yH-D9g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1F-av-rHt">
+                                        <rect key="frame" x="24" y="79" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 5"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FC-o4-HMC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjo-Z0-gQZ">
+                                        <rect key="frame" x="129" y="79" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Eyes 6"/>
+                                        <connections>
+                                            <action selector="changeEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LxV-eq-gdn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ecj-t1-ZIS">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-Wu-SgP">
+                                        <rect key="frame" x="113" y="30" width="85" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Glasses 1"/>
+                                        <connections>
+                                            <action selector="changeGlasses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZMK-6h-y9x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXY-oX-1HJ">
+                                        <rect key="frame" x="221" y="30" width="85" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Glasses 2"/>
+                                        <connections>
+                                            <action selector="changeGlasses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BG7-F7-teW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UX9-SM-YLF">
+                                        <rect key="frame" x="328" y="30" width="85" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Glasses 3"/>
+                                        <connections>
+                                            <action selector="changeGlasses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tg6-a6-UO6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWI-Wf-9y8">
+                                        <rect key="frame" x="24" y="12" width="65" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="Btn-刪除"/>
+                                        <connections>
+                                            <action selector="changeGlasses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLf-ME-35k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lrN-yE-O8E">
+                                <rect key="frame" x="0.0" y="616" width="428" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lkd-gJ-WE6">
+                                        <rect key="frame" x="0.0" y="52" width="428" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9V2-MJ-Afx">
+                                                <rect key="frame" x="122" y="-3" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 2D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUc-BS-3YU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOb-eo-5cb">
+                                                <rect key="frame" x="122" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 6D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKc-5J-am9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc0-i5-vwI">
+                                                <rect key="frame" x="318" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 4D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QI1-mp-icv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gv4-Wr-sZe">
+                                                <rect key="frame" x="24" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 1D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRP-UB-oIa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-Qq-pI8">
+                                                <rect key="frame" x="220" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 3D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qv1-pw-sL4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyr-wU-syz">
+                                                <rect key="frame" x="220" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 7D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ot-8x-TT1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJe-9n-xiZ">
+                                                <rect key="frame" x="24" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 5D"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwj-md-7L7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iq9-Oo-fNE">
+                                        <rect key="frame" x="0.0" y="52" width="428" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hL-q5-O3D">
+                                                <rect key="frame" x="122" y="-3" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 2C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9Y-dm-n7Y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBn-Ff-aCm">
+                                                <rect key="frame" x="122" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 6C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCe-XJ-rKM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ct0-PX-GR3">
+                                                <rect key="frame" x="318" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 4C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsa-JP-tDZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4I-k5-s8b">
+                                                <rect key="frame" x="24" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 1C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CPl-hu-v37"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loU-Kk-vTC">
+                                                <rect key="frame" x="220" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 3C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFb-as-Gn0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGI-Te-KL2">
+                                                <rect key="frame" x="220" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 7C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xMR-D2-6Oc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZQ-jq-sy0">
+                                                <rect key="frame" x="24" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 5C"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37g-Zj-O7N"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xv3-og-BWi">
+                                        <rect key="frame" x="0.0" y="52" width="428" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT1-z4-Ez8">
+                                                <rect key="frame" x="122" y="-3" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 2B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tbe-LH-HIL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xN-5a-VJU">
+                                                <rect key="frame" x="122" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 6B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wqA-D1-oxf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKS-Ey-dDg">
+                                                <rect key="frame" x="318" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 4B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q13-zl-IXv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCS-6t-YjW">
+                                                <rect key="frame" x="24" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 1B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVv-8I-fRr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxR-PO-uvE">
+                                                <rect key="frame" x="220" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 3B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lo2-po-n2C"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wQ-jL-gYs">
+                                                <rect key="frame" x="220" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 7B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZzU-Y2-pSS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gnr-5S-ef4">
+                                                <rect key="frame" x="24" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 5B"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FBx-YO-NqE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gKt-fk-DlD">
+                                        <rect key="frame" x="0.0" y="52" width="428" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGu-O3-61D">
+                                                <rect key="frame" x="24" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 1A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYl-9e-SPI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHO-ii-WJ7">
+                                                <rect key="frame" x="122" y="-3" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 2A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1I-Yn-DFD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCy-Tg-Dqg">
+                                                <rect key="frame" x="220" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 3A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kcB-a6-ChV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-Dt-Iw4">
+                                                <rect key="frame" x="318" y="4" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 4A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCf-7H-2C3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4q-75-vHv">
+                                                <rect key="frame" x="24" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 5A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFa-ga-Er9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egb-Xg-U7Q">
+                                                <rect key="frame" x="122" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 6A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gi-aP-etO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUE-SO-Ujk">
+                                                <rect key="frame" x="220" y="99" width="85" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Hair 7A"/>
+                                                <connections>
+                                                    <action selector="changeHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nLX-3H-lOp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WTK-86-4nJ">
+                                        <rect key="frame" x="0.0" y="47" width="428" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                    </view>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPP-hY-Ah6">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-Jc-B6a">
+                                                <rect key="frame" x="45" y="0.0" width="32" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Btn-Hair ColorA"/>
+                                                <connections>
+                                                    <action selector="selectHairA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="geY-jG-aoy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coZ-bl-Btc">
+                                                <rect key="frame" x="108" y="0.0" width="32" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Btn-Hair ColorB"/>
+                                                <connections>
+                                                    <action selector="selectHairB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5M-4k-nq6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sO-uJ-1ix">
+                                                <rect key="frame" x="171" y="0.0" width="32" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Btn-Hair ColorC"/>
+                                                <connections>
+                                                    <action selector="selectHairC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5j0-EX-Tcz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqr-rp-HHV">
+                                                <rect key="frame" x="234" y="0.0" width="32" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Btn-Hair ColorD"/>
+                                                <connections>
+                                                    <action selector="selectHairD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mw5-x6-hNp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="Y0v-Dz-48p"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="Isc-nn-2ST"/>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jb8-yQ-Xh4">
+                                <rect key="frame" x="0.0" y="530" width="428" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWV-vB-ama">
+                                        <rect key="frame" x="350" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-背景"/>
+                                        <connections>
+                                            <action selector="selectBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNP-ar-wci"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN0-dG-p97">
+                                        <rect key="frame" x="283" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-鞋子"/>
+                                        <connections>
+                                            <action selector="selectShoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bgJ-xd-n51"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ1-VI-UrU">
+                                        <rect key="frame" x="216" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-衣服"/>
+                                        <connections>
+                                            <action selector="selectDress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="46D-GQ-6Eh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXt-if-1ce">
+                                        <rect key="frame" x="149" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-眼鏡"/>
+                                        <connections>
+                                            <action selector="selectglasses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U3W-lU-tAl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-de-8R5">
+                                        <rect key="frame" x="82" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-眼睛"/>
+                                        <connections>
+                                            <action selector="selectEye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TK6-gN-AkT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYl-ZD-R8G">
+                                        <rect key="frame" x="15" y="0.0" width="62" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Btn-髮型"/>
+                                        <connections>
+                                            <action selector="selectHair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4hC-Wj-Cm5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="hUZ-IN-GyZ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="MLz-bS-xDe"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="EdB-dZ-DSd" id="SU5-Ne-IPK"/>
+                        <outlet property="bgImageView" destination="Ivf-MP-lk1" id="31Z-Ef-P26"/>
+                        <outlet property="bodyImageView" destination="RUI-uz-YNl" id="lMd-hi-Cvr"/>
+                        <outlet property="dressImageView" destination="sYb-Qt-QJE" id="7mj-qH-Sjn"/>
+                        <outlet property="dressView" destination="3Ig-NX-ywU" id="BXT-G5-Ezc"/>
+                        <outlet property="eyeImageView" destination="2Ar-df-qF1" id="ojU-tB-cu2"/>
+                        <outlet property="eyeView" destination="OkM-w9-TFH" id="lEt-BZ-S3e"/>
+                        <outlet property="glassesImageView" destination="Tfx-dF-bjB" id="na9-Ph-pqJ"/>
+                        <outlet property="glassesView" destination="Ecj-t1-ZIS" id="ZSH-tH-3b7"/>
+                        <outlet property="hairImageView" destination="qFg-BZ-Cdw" id="qya-6x-wOS"/>
+                        <outlet property="hairView" destination="lrN-yE-O8E" id="6YF-BM-Nes"/>
+                        <outlet property="hairViewA" destination="gKt-fk-DlD" id="I5f-G8-JNb"/>
+                        <outlet property="hairViewB" destination="Xv3-og-BWi" id="LZQ-LL-uGo"/>
+                        <outlet property="hairViewC" destination="Iq9-Oo-fNE" id="0qy-c3-NNS"/>
+                        <outlet property="hairViewD" destination="lkd-gJ-WE6" id="IwA-Xk-XhO"/>
+                        <outlet property="shoesImageView" destination="KhM-WT-9Ge" id="p0j-C5-fU2"/>
+                        <outlet property="shoesView" destination="3Nk-Yy-ETJ" id="q2T-Oi-Td4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="94"/>
+            <point key="canvasLocation" x="19.626168224299064" y="93.952483801295898"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Eyes  1" width="53" height="18"/>
+        <image name="Btn-Hair ColorA" width="32" height="32"/>
+        <image name="Btn-Hair ColorB" width="32" height="32"/>
+        <image name="Btn-Hair ColorC" width="32" height="32"/>
+        <image name="Btn-Hair ColorD" width="32" height="32"/>
+        <image name="Btn-刪除" width="65" height="65"/>
+        <image name="Btn-眼睛" width="62" height="62"/>
+        <image name="Btn-眼鏡" width="62" height="62"/>
+        <image name="Btn-背景" width="62" height="62"/>
+        <image name="Btn-衣服" width="62" height="62"/>
+        <image name="Btn-隨機" width="125" height="53"/>
+        <image name="Btn-鞋子" width="62" height="62"/>
+        <image name="Btn-髮型" width="62" height="62"/>
+        <image name="Dress 1" width="142" height="299"/>
+        <image name="Dress 10" width="142" height="299"/>
+        <image name="Dress 2" width="142" height="299"/>
+        <image name="Dress 3" width="142" height="299"/>
+        <image name="Dress 4" width="142" height="299"/>
+        <image name="Dress 5" width="142" height="299"/>
+        <image name="Dress 6" width="142" height="299"/>
+        <image name="Dress 7" width="142" height="299"/>
+        <image name="Dress 8" width="142" height="299"/>
+        <image name="Dress 9" width="142" height="299"/>
+        <image name="Eyes 1" width="53" height="18"/>
+        <image name="Eyes 2" width="53" height="18"/>
+        <image name="Eyes 3" width="53" height="18"/>
+        <image name="Eyes 4" width="53" height="18"/>
+        <image name="Eyes 5" width="53" height="18"/>
+        <image name="Eyes 6" width="53" height="18"/>
+        <image name="Glasses 1" width="82" height="29"/>
+        <image name="Glasses 2" width="82" height="29"/>
+        <image name="Glasses 3" width="82" height="29"/>
+        <image name="Hair 1A" width="144" height="262"/>
+        <image name="Hair 1B" width="144" height="262"/>
+        <image name="Hair 1C" width="144" height="262"/>
+        <image name="Hair 1D" width="144" height="262"/>
+        <image name="Hair 2A" width="144" height="262"/>
+        <image name="Hair 2B" width="144" height="262"/>
+        <image name="Hair 2C" width="144" height="262"/>
         <image name="Hair 2D" width="144" height="262"/>
-        <image name="Shoes  1" width="91" height="38"/>
+        <image name="Hair 3A" width="144" height="262"/>
+        <image name="Hair 3B" width="144" height="262"/>
+        <image name="Hair 3C" width="144" height="262"/>
+        <image name="Hair 3D" width="144" height="262"/>
+        <image name="Hair 4A" width="144" height="262"/>
+        <image name="Hair 4B" width="144" height="262"/>
+        <image name="Hair 4C" width="144" height="262"/>
+        <image name="Hair 4D" width="144" height="262"/>
+        <image name="Hair 5A" width="144" height="262"/>
+        <image name="Hair 5B" width="144" height="262"/>
+        <image name="Hair 5C" width="144" height="262"/>
+        <image name="Hair 5D" width="144" height="262"/>
+        <image name="Hair 6A" width="144" height="262"/>
+        <image name="Hair 6B" width="144" height="262"/>
+        <image name="Hair 6C" width="144" height="262"/>
+        <image name="Hair 6D" width="144" height="262"/>
+        <image name="Hair 7A" width="144" height="262"/>
+        <image name="Hair 7B" width="144" height="262"/>
+        <image name="Hair 7C" width="144" height="262"/>
+        <image name="Hair 7D" width="144" height="262"/>
+        <image name="Shoes 1" width="97" height="96"/>
+        <image name="Shoes 2" width="97" height="96"/>
+        <image name="Shoes 3" width="97" height="96"/>
+        <image name="Shoes 4" width="97" height="96"/>
+        <image name="Shoes 5" width="97" height="96"/>
+        <image name="Shoes 6" width="97" height="96"/>
+        <image name="Shoes 7" width="97" height="96"/>
+        <image name="Shoes 8" width="97" height="96"/>
+        <image name="Shoes 9" width="97" height="96"/>
+        <image name="background-10" width="428" height="520"/>
+        <image name="background-9" width="428" height="520"/>
+        <image name="backgroung-1" width="428" height="520"/>
+        <image name="backgroung-2" width="428" height="520"/>
+        <image name="backgroung-3" width="428" height="520"/>
+        <image name="backgroung-4" width="428" height="520"/>
+        <image name="backgroung-5" width="428" height="520"/>
+        <image name="backgroung-6" width="428" height="520"/>
+        <image name="backgroung-7" width="428" height="520"/>
+        <image name="backgroung-8" width="428" height="520"/>
         <image name="body" width="218" height="459"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
