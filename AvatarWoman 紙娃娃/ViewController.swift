@@ -134,9 +134,9 @@ class ViewController: UIViewController {
         let theImage = sender.currentImage
         glassesImageView.image = theImage
         // 清除眼鏡
-        if theImage?.isSymbolImage == true {
-            glassesImageView.image = nil
-        }
+//        if theImage?.isSymbolImage == true {
+//            glassesImageView.image = nil
+//        }
     }
     @IBAction func changeEye(_ sender: UIButton) {
         let theImage = sender.currentImage
@@ -151,9 +151,9 @@ class ViewController: UIViewController {
         let theImage = sender.currentImage
         shoesImageView.image = theImage
         // 清除鞋子
-        if theImage?.isSymbolImage == true {
-            shoesImageView.image = nil
-        }
+//        if theImage?.isSymbolImage == true {
+//            shoesImageView.image = nil
+//        }
     }
     
     @IBAction func changeBackground(_ sender: UIButton) {
@@ -171,8 +171,8 @@ class ViewController: UIViewController {
                               UIImage(named: "backgroung-6.jpg"),
                               UIImage(named: "backgroung-7.jpg"),
                               UIImage(named: "backgroung-8.jpg"),
-                              UIImage(named: "backgroung-9.jpg"),
-                              UIImage(named: "backgroung-10.jpg")
+                              UIImage(named: "background-9.jpg"),
+                              UIImage(named: "background-10.jpg")
                               ]
     let eyeImage:[UIImage?] = [UIImage(named: "Eyes 1"),UIImage(named: "Eyes 2"),UIImage(named: "Eyes 3"),UIImage(named: "Eyes 4"),UIImage(named: "Eyes 5"),UIImage(named: "Eyes 6")]
     let hairImage:[UIImage?] = [UIImage(named: "Hair 1A"),UIImage(named: "Hair 2A"),UIImage(named: "Hair 3A"),UIImage(named: "Hair 4A"),UIImage(named: "Hair 5A"),UIImage(named: "Hair 6A"),UIImage(named: "Hair 7A"),
@@ -198,8 +198,6 @@ class ViewController: UIViewController {
         shoesImageView.image = shoesImage[number10]
         dressImageView.image = dressImage[number10]
         glassesImageView.image = glassesImage[number4]
-        
-        print(bgImageView.image)
     }
     
     
